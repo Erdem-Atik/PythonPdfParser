@@ -1,0 +1,115 @@
+T.C.
+ BÝLGÝ TEKNOLOJÝLERÝ VE ÝLETÝÞÝM KURUMU
+
+Site Adý: BT0922
+
+GÜVENLÝK SERTÝFÝKASI
+
+Sertifika No
+Ýþletici/Ýþletmeci Adý
+
+: BTK 060000008625
+: TT MOBÝL ÝLETÝÞÝM HÝZMETLERÝ A.Þ.
+
+Sabit Ýstasyonun Adresi
+
+Koordinatlar
+
+:
+
+:
+
+SAÐLIK MAH. 7. CAD. HAVA LOKALI KARÞISI DEMÝR APT.
+MERKEZ/BATMAN
+
+N: 37° 53' 28.60"    E: 41° 07' 25.70"
+
+Elektronik Haberleþme Sistemi
+
+: HÜCRESEL SÝSTEM 2N
+
+Antenin Yerden 
+Yüksekliði (m)
+
+Anten Kazancý 
+(dB)
+
+Max Güç (W)
+
+Sistemin 
+Frekansý (MHz)
+
+Güvenlik 
+Mesafesi
+
+:
+
+:
+
+:
+
+:
+
+17.5
+
+17.50
+
+20.00
+
+1,800
+
+: 15.74
+
+17.5
+
+17.50
+
+20.00
+
+1,800
+
+15.74
+
+17.7
+
+17.50
+
+20.00
+
+1,800
+
+15.74
+
+17.5
+
+17.50
+
+20.00
+
+1,800
+
+15.74
+
+(m)dir.
+
+Bu   Güvenlik   Sertifikasý,   yukarýda   belirtilen  sistemin  10/11/2008   tarihli  ve 5809  sayýlý
+
+Elektronik    Haberleþme    Kanununa    istinaden    yayýmlanan
+
+"Elektronik  Haberleþme
+
+Cihazlarý Güvenlik Sertifikasý Yönetmeliði" ne uygun bulunduðunu gösterir.
+
+27/09/2022
+Onay
+
+e-imzalýdýr.
+
+Erkan ÝPEKÇÝOÐLU
+Bölge Müdürü
+
+Seri No: 01153843
+
+Not: 5070 sayýlý Elektronik Ýmza Kanunu gereði bu belge elektronik imza ile imzalanmýþtýr.
+
+
