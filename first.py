@@ -2,34 +2,38 @@ import os
 import fitz
 import pandas as pd
 
-# Create an empty list to store the extracted information
+
 data = []
 
-# Loop through all PDF files in the current directory
-for filename in os.listdir('.'):
-    if filename.endswith('.pdf'):
-        # Open the PDF file
-        doc = fitz.open(filename)
+folder_path = 'D:/Coding/Python codes'
 
-        # Get the first page of the PDF
-        page = doc[0]
 
-        # Extract the text from the page
-        text = page.get_text()
+# Traverse all subdirectories of the folder path
+for root, dirs, files in os.walk(folder_path):
+    for filename in files:
+        if filename.endswith('.pdf'):
+            # Open the PDF file
+            doc = fitz.open(os.path.join(root, filename))
 
-        # Find the address information
-        address_lines = []
-        coordinates = []
-        for i, line in enumerate(text.splitlines()):
-            if i==8:
-                coordinates.append(line)
-            if i==9:
-                address_lines.append(line)
-            if i==10:
-                address_lines.append(line)
+            # Get the first page of the PDF
+            page = doc[0]
 
-        # Add the extracted information to the list
-        data.append({'File Name': filename, 'Address': ', '.join(address_lines), 'Coordinates': ','.join(coordinates)})
+            # Extract the text from the page
+            text = page.get_text()
+
+            # Find the address information
+            address_lines = []
+            coordinates = []
+            for i, line in enumerate(text.splitlines()):
+                if i==8:
+                    coordinates.append(line)
+                if i==9:
+                    address_lines.append(line)
+                if i==10:
+                    address_lines.append(line)
+
+            # Add the extracted information to the list
+            data.append({'File Name': filename, 'Address': ', '.join(address_lines), 'Coordinates': ','.join(coordinates)})
 
 # Create a pandas dataframe from the extracted information
 df = pd.DataFrame(data)
