@@ -19,14 +19,17 @@ for filename in os.listdir('.'):
 
         # Find the address information
         address_lines = []
+        coordinates = []
         for i, line in enumerate(text.splitlines()):
+            if i==8:
+                coordinates.append(line)
             if i==9:
                 address_lines.append(line)
             if i==10:
                 address_lines.append(line)
 
         # Add the extracted information to the list
-        data.append({'File Name': filename, 'Address': ', '.join(address_lines)})
+        data.append({'File Name': filename, 'Address': ', '.join(address_lines), 'Coordinates': ','.join(coordinates)})
 
 # Create a pandas dataframe from the extracted information
 df = pd.DataFrame(data)
