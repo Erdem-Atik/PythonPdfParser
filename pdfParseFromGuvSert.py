@@ -6,7 +6,7 @@ import pandas as pd
 data = []
 
 # Set the path of the top-level folder to search for PDF files
-top_level_folder = r"D:\Coding\Python codes"
+top_level_folder = r"D:\Coding\Python codes\Guv_Sert_Parser\PDFs"
 
 # Loop through all PDF files in the current directory and its subdirectories
 for dirpath, dirnames, filenames in os.walk(top_level_folder):
